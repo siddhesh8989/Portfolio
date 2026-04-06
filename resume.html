@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Siddesh Sonawane | Resume</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .resume-container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      background: white;
+      color: #333;
+      border-radius: 10px;
+    }
+
+    .resume-header {
+      text-align: center;
+      border-bottom: 2px solid #38bdf8;
+      padding-bottom: 20px;
+      margin-bottom: 30px;
+    }
+
+    .resume-header h1 {
+      margin: 0;
+      color: #0f172a;
+      font-size: 32px;
+    }
+
+    .resume-header p {
+      margin: 5px 0;
+      color: #666;
+    }
+
+    .resume-section {
+      margin-bottom: 30px;
+    }
+
+    .resume-section h2 {
+      color: #0f172a;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 10px;
+      margin-bottom: 15px;
+      font-size: 20px;
+    }
+
+    .resume-item {
+      margin-bottom: 20px;
+    }
+
+    .resume-item h3 {
+      margin: 0 0 5px 0;
+      color: #0f172a;
+    }
+
+    .resume-item .date {
+      color: #38bdf8;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    .resume-item .company {
+      color: #666;
+      font-style: italic;
+      font-size: 14px;
+    }
+
+    .resume-item p {
+      margin: 8px 0;
+      line-height: 1.6;
+      color: #555;
+    }
+
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skill-tag {
+      background: #38bdf8;
+      color: white;
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 14px;
+    }
+
+    .print-btn {
+      display: inline-block;
+      margin-bottom: 20px;
+      padding: 10px 20px;
+      background: #38bdf8;
+      color: black;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .print-btn:hover {
+      background: #0ea5e9;
+    }
+
+    @media print {
+      body {
+        background: white;
+      }
+      .print-btn {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body style="background: #0f172a;">
+
+<header>
+  <h2>Siddesh</h2>
+  <nav>
+    <a href="index.html#about">Portfolio</a>
+    <a href="index.html#projects">Projects</a>
+    <a href="index.html#skills">Skills</a>
+    <a href="resume.html" style="color: #fbbf24;">Resume</a>
+    <a href="index.html#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="resume-container">
+  <button class="print-btn" onclick="window.print()">🖨️ Print Resume</button>
+
+  <div class="resume-header">
+    <h1>Siddesh Sonawane</h1>
+    <p>📧 siddesh@email.com | 📱 +91 XXXXXXXX | 🔗 github.com/yourusername</p>
+    <p>CSE (AIML) Student | ML & Full-Stack Developer</p>
+  </div>
+
+  <!-- SUMMARY -->
+  <div class="resume-section">
+    <h2>PROFESSIONAL SUMMARY</h2>
+    <p>Passionate Computer Science (AIML) student with strong expertise in Machine Learning, Full-Stack Development, and Data Science. Skilled in building scalable applications and solving real-world problems through code.</p>
+  </div>
+
+  <!-- EDUCATION -->
+  <div class="resume-section">
+    <h2>EDUCATION</h2>
+    <div class="resume-item">
+      <h3>Bachelor of Technology (CSE - AIML)</h3>
+      <div class="company">Your University Name</div>
+      <div class="date">2022 - 2026</div>
+      <p>CGPA: X.XX | Relevant Coursework: Machine Learning, Data Structures, Web Development, Database Management</p>
+    </div>
+  </div>
+
+  <!-- EXPERIENCE -->
+  <div class="resume-section">
+    <h2>EXPERIENCE</h2>
+    <div class="resume-item">
+      <h3>Project: Carbon Footprint Calculator</h3>
+      <div class="date">2025</div>
+      <p>• Developed ML-based system to estimate carbon emissions using regression models<br>
+      • Achieved X% accuracy with optimized feature engineering<br>
+      • Tech Stack: Python, Scikit-learn, Flask</p>
+    </div>
+
+    <div class="resume-item">
+      <h3>Project: Electricity Billing System</h3>
+      <div class="date">2025</div>
+      <p>• Built full-stack app for billing management and user records<br>
+      • Implemented authentication and database optimization<br>
+      • Tech Stack: HTML, CSS, JavaScript, PHP, MySQL</p>
+    </div>
+
+    <div class="resume-item">
+      <h3>Project: Spam Detection System</h3>
+      <div class="date">2024</div>
+      <p>• Created NLP model to classify spam messages with 92% accuracy<br>
+      • Performed text preprocessing and feature extraction<br>
+      • Tech Stack: Python, NLTK, Sklearn</p>
+    </div>
+  </div>
+
+  <!-- SKILLS -->
+  <div class="resume-section">
+    <h2>SKILLS</h2>
+    <div class="skills-list">
+      <span class="skill-tag">Python</span>
+      <span class="skill-tag">Machine Learning</span>
+      <span class="skill-tag">HTML</span>
+      <span class="skill-tag">CSS</span>
+      <span class="skill-tag">JavaScript</span>
+      <span class="skill-tag">MySQL</span>
+      <span class="skill-tag">Git & GitHub</span>
+      <span class="skill-tag">Data Analysis</span>
+      <span class="skill-tag">Flask</span>
+      <span class="skill-tag">APIs</span>
+    </div>
+  </div>
+
+  <!-- CERTIFICATIONS -->
+  <div class="resume-section">
+    <h2>CERTIFICATIONS</h2>
+    <div class="resume-item">
+      <h3>Machine Learning Specialization</h3>
+      <div class="company">Coursera</div>
+      <div class="date">2024</div>
+    </div>
+    <div class="resume-item">
+      <h3>Full-Stack Web Development</h3>
+      <div class="company">Udemy</div>
+      <div class="date">2024</div>
+    </div>
+  </div>
+
+  <!-- LINKS -->
+  <div class="resume-section">
+    <h2>LINKS</h2>
+    <p>
+      🔗 <a href="https://github.com/yourusername" target="_blank" style="color: #38bdf8;">GitHub</a> |
+      💼 <a href="https://linkedin.com/in/yourusername" target="_blank" style="color: #38bdf8;">LinkedIn</a> |
+      🌐 <a href="index.html" style="color: #38bdf8;">Portfolio Website</a>
+    </p>
+  </div>
+</div>
+
+<footer style="text-align: center; padding: 20px; color: white; margin-top: 40px;">
+  <p>© 2026 Siddesh Sonawane | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
+
+<a href="resume.pdf" download class="btn-outline">Download Resume</a>
