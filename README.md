@@ -4,10 +4,6 @@
 
 ---
 
-## 🔗 Live Portfolio
-👉 https://siddhesh8989.github.io/Portfolio/
-
----
 
 ## 💡 About Me
 - 🎓 B.Tech CSE (AI & ML) student at SRM IST Chennai  
